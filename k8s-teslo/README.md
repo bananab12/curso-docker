@@ -1,3 +1,7 @@
+# K8S
+
+Una plataforma para automatizar el despliegue, escala y manejo de contenedores. En otras palabras es un Administrador de contenedores (Docker)
+
 # Comandos útiles
 
 ```

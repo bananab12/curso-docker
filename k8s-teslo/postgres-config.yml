@@ -1,0 +1,9 @@
+# Crear variables de entorno que voy a compartir a lo largo de mi app
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: postgres-config # nombre para referenciar mis keys values pairs
+data:
+  DB_NAME: postgres
+  DB_HOST: postgres-service
+  DB_PORT: "5432"
